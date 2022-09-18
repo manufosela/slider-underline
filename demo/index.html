@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <script type="module" src="../slider-underline.js"></script>
+  </head>
+  <body>
+    <div id="demo">
+      <slider-underline>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Feature</a></li>
+          <li><a href="#">Agenda</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+      </slider-underline>
+    </div>
+    <script>
+      const slider = document.querySelector('slider-underline');
+      slider.addEventListener('slider-underline-click', e => {
+        console.log(e.detail);
+      });
+    </script>
+  </body>
+</html>
