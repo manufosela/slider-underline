@@ -3,7 +3,7 @@
   "description": "Webcomponent slider-underline following open-wc recommendations and based on example created by @nabaroa and using nakDS",
   "license": "MIT",
   "author": "manufosela",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "slider-underline.js",
   "module": "slider-underline.js",
   "repository": {
