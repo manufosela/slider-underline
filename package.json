@@ -4,8 +4,16 @@
   "license": "MIT",
   "author": "manufosela",
   "version": "1.0.0",
-  "main": "index.js",
-  "module": "index.js",
+  "main": "slider-underline.js",
+  "module": "slider-underline.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/slider-underline"
+  },
+  "bugs": {
+    "url": "https://github.com/user/slider-underline/issues"
+  },
+  "homepage": "https://github.com/user/slider-underline",
   "scripts": {
     "analyze": "cem analyze --litelement",
     "start": "web-dev-server",
