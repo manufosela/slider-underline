@@ -1,6 +1,8 @@
 # \<slider-underline>
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
+slider-underline is based [https://codepen.io/nabaroa/pen/QWrGxLg](on example) created by @nabaroa
+slider-underline uses [https://nakds.s3.eu-west-3.amazonaws.com/nakDS.min.css](nakDS)
 
 ## Installation
 
@@ -15,7 +17,15 @@ npm i slider-underline
   import 'slider-underline/slider-underline.js';
 </script>
 
-<slider-underline></slider-underline>
+<slider-underline>
+  <!-- put list <ul>, with list elements <li>, with links <a> -->
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#feature">Feature</a></li>
+    <li><a href="#agenda">Agenda</a></li>
+    <li><a href="#news">News</a></li>
+  </ul>
+</slider-underline>
 ```
 
 ## Linting and formatting
@@ -59,7 +69,6 @@ To build a production version of Storybook, run
 ```bash
 npm run storybook:build
 ```
-
 
 ## Tooling configs
 
